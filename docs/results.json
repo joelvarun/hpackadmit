@@ -1,0 +1,747 @@
+{
+ "table_size": 4096,
+ "traces": [
+  {
+   "origin": "github.githubassets.com",
+   "blocks": 60,
+   "fields": 1380,
+   "entry_bytes": 87757
+  },
+  {
+   "origin": "www.cloudflare.com",
+   "blocks": 44,
+   "fields": 1144,
+   "entry_bytes": 177449
+  },
+  {
+   "origin": "developer.mozilla.org",
+   "blocks": 29,
+   "fields": 869,
+   "entry_bytes": 61951
+  },
+  {
+   "origin": "pypi.org",
+   "blocks": 12,
+   "fields": 261,
+   "entry_bytes": 24493
+  },
+  {
+   "origin": "arxiv.org",
+   "blocks": 11,
+   "fields": 186,
+   "entry_bytes": 12560
+  },
+  {
+   "origin": "en.wikipedia.org",
+   "blocks": 10,
+   "fields": 235,
+   "entry_bytes": 33262
+  }
+ ],
+ "policies": {
+  "github.githubassets.com": {
+   "never": {
+    "bytes": 29485,
+    "admitted": 0,
+    "hits": 60,
+    "name_indexed": 840,
+    "literals": 480,
+    "table_clears": 0,
+    "peak_entries": 0
+   },
+   "always": {
+    "bytes": 11817,
+    "admitted": 559,
+    "hits": 821,
+    "name_indexed": 519,
+    "literals": 40,
+    "table_clears": 0,
+    "peak_entries": 64
+   },
+   "size_guard": {
+    "bytes": 11817,
+    "admitted": 559,
+    "hits": 821,
+    "name_indexed": 519,
+    "literals": 40,
+    "table_clears": 0,
+    "peak_entries": 64
+   },
+   "nghttp2": {
+    "bytes": 11359,
+    "admitted": 360,
+    "hits": 840,
+    "name_indexed": 512,
+    "literals": 28,
+    "table_clears": 0,
+    "peak_entries": 57
+   },
+   "oracle_recurrence": {
+    "bytes": 11590,
+    "admitted": 44,
+    "hits": 944,
+    "name_indexed": 240,
+    "literals": 196,
+    "table_clears": 0,
+    "peak_entries": 44
+   },
+   "second_sight": {
+    "bytes": 10110,
+    "admitted": 59,
+    "hits": 916,
+    "name_indexed": 456,
+    "literals": 8,
+    "table_clears": 0,
+    "peak_entries": 59
+   }
+  },
+  "www.cloudflare.com": {
+   "never": {
+    "bytes": 105059,
+    "admitted": 0,
+    "hits": 44,
+    "name_indexed": 405,
+    "literals": 695,
+    "table_clears": 0,
+    "peak_entries": 0
+   },
+   "always": {
+    "bytes": 63302,
+    "admitted": 684,
+    "hits": 460,
+    "name_indexed": 394,
+    "literals": 290,
+    "table_clears": 0,
+    "peak_entries": 42
+   },
+   "size_guard": {
+    "bytes": 81379,
+    "admitted": 377,
+    "hits": 724,
+    "name_indexed": 274,
+    "literals": 146,
+    "table_clears": 0,
+    "peak_entries": 47
+   },
+   "nghttp2": {
+    "bytes": 63273,
+    "admitted": 624,
+    "hits": 463,
+    "name_indexed": 396,
+    "literals": 285,
+    "table_clears": 0,
+    "peak_entries": 39
+   },
+   "oracle_recurrence": {
+    "bytes": 23207,
+    "admitted": 61,
+    "hits": 895,
+    "name_indexed": 129,
+    "literals": 120,
+    "table_clears": 0,
+    "peak_entries": 29
+   },
+   "second_sight": {
+    "bytes": 25371,
+    "admitted": 83,
+    "hits": 870,
+    "name_indexed": 149,
+    "literals": 125,
+    "table_clears": 0,
+    "peak_entries": 29
+   }
+  },
+  "developer.mozilla.org": {
+   "never": {
+    "bytes": 25131,
+    "admitted": 0,
+    "hits": 29,
+    "name_indexed": 396,
+    "literals": 444,
+    "table_clears": 0,
+    "peak_entries": 0
+   },
+   "always": {
+    "bytes": 14999,
+    "admitted": 508,
+    "hits": 361,
+    "name_indexed": 439,
+    "literals": 69,
+    "table_clears": 0,
+    "peak_entries": 57
+   },
+   "size_guard": {
+    "bytes": 14950,
+    "admitted": 506,
+    "hits": 362,
+    "name_indexed": 439,
+    "literals": 68,
+    "table_clears": 0,
+    "peak_entries": 58
+   },
+   "nghttp2": {
+    "bytes": 14844,
+    "admitted": 411,
+    "hits": 373,
+    "name_indexed": 432,
+    "literals": 64,
+    "table_clears": 0,
+    "peak_entries": 54
+   },
+   "oracle_recurrence": {
+    "bytes": 14864,
+    "admitted": 40,
+    "hits": 483,
+    "name_indexed": 160,
+    "literals": 226,
+    "table_clears": 0,
+    "peak_entries": 40
+   },
+   "second_sight": {
+    "bytes": 13574,
+    "admitted": 58,
+    "hits": 450,
+    "name_indexed": 360,
+    "literals": 59,
+    "table_clears": 0,
+    "peak_entries": 48
+   }
+  },
+  "pypi.org": {
+   "never": {
+    "bytes": 11678,
+    "admitted": 0,
+    "hits": 12,
+    "name_indexed": 139,
+    "literals": 110,
+    "table_clears": 0,
+    "peak_entries": 0
+   },
+   "always": {
+    "bytes": 4228,
+    "admitted": 107,
+    "hits": 154,
+    "name_indexed": 90,
+    "literals": 17,
+    "table_clears": 0,
+    "peak_entries": 56
+   },
+   "size_guard": {
+    "bytes": 8958,
+    "admitted": 104,
+    "hits": 144,
+    "name_indexed": 90,
+    "literals": 27,
+    "table_clears": 0,
+    "peak_entries": 61
+   },
+   "nghttp2": {
+    "bytes": 4229,
+    "admitted": 82,
+    "hits": 155,
+    "name_indexed": 89,
+    "literals": 17,
+    "table_clears": 0,
+    "peak_entries": 51
+   },
+   "oracle_recurrence": {
+    "bytes": 3820,
+    "admitted": 20,
+    "hits": 168,
+    "name_indexed": 49,
+    "literals": 44,
+    "table_clears": 0,
+    "peak_entries": 20
+   },
+   "second_sight": {
+    "bytes": 3743,
+    "admitted": 29,
+    "hits": 158,
+    "name_indexed": 92,
+    "literals": 11,
+    "table_clears": 0,
+    "peak_entries": 29
+   }
+  },
+  "arxiv.org": {
+   "never": {
+    "bytes": 4535,
+    "admitted": 0,
+    "hits": 11,
+    "name_indexed": 129,
+    "literals": 46,
+    "table_clears": 0,
+    "peak_entries": 0
+   },
+   "always": {
+    "bytes": 2757,
+    "admitted": 108,
+    "hits": 78,
+    "name_indexed": 102,
+    "literals": 6,
+    "table_clears": 0,
+    "peak_entries": 57
+   },
+   "size_guard": {
+    "bytes": 2757,
+    "admitted": 108,
+    "hits": 78,
+    "name_indexed": 102,
+    "literals": 6,
+    "table_clears": 0,
+    "peak_entries": 57
+   },
+   "nghttp2": {
+    "bytes": 2789,
+    "admitted": 76,
+    "hits": 78,
+    "name_indexed": 102,
+    "literals": 6,
+    "table_clears": 0,
+    "peak_entries": 51
+   },
+   "oracle_recurrence": {
+    "bytes": 2949,
+    "admitted": 13,
+    "hits": 84,
+    "name_indexed": 71,
+    "literals": 31,
+    "table_clears": 0,
+    "peak_entries": 13
+   },
+   "second_sight": {
+    "bytes": 2850,
+    "admitted": 35,
+    "hits": 79,
+    "name_indexed": 101,
+    "literals": 6,
+    "table_clears": 0,
+    "peak_entries": 35
+   }
+  },
+  "en.wikipedia.org": {
+   "never": {
+    "bytes": 18469,
+    "admitted": 0,
+    "hits": 10,
+    "name_indexed": 132,
+    "literals": 93,
+    "table_clears": 0,
+    "peak_entries": 0
+   },
+   "always": {
+    "bytes": 15525,
+    "admitted": 157,
+    "hits": 78,
+    "name_indexed": 125,
+    "literals": 32,
+    "table_clears": 2,
+    "peak_entries": 60
+   },
+   "size_guard": {
+    "bytes": 15447,
+    "admitted": 151,
+    "hits": 80,
+    "name_indexed": 129,
+    "literals": 26,
+    "table_clears": 0,
+    "peak_entries": 60
+   },
+   "nghttp2": {
+    "bytes": 15560,
+    "admitted": 120,
+    "hits": 78,
+    "name_indexed": 125,
+    "literals": 32,
+    "table_clears": 0,
+    "peak_entries": 57
+   },
+   "oracle_recurrence": {
+    "bytes": 14901,
+    "admitted": 31,
+    "hits": 102,
+    "name_indexed": 87,
+    "literals": 46,
+    "table_clears": 1,
+    "peak_entries": 25
+   },
+   "second_sight": {
+    "bytes": 14578,
+    "admitted": 41,
+    "hits": 100,
+    "name_indexed": 119,
+    "literals": 16,
+    "table_clears": 0,
+    "peak_entries": 41
+   }
+  }
+ },
+ "exact": {
+  "github.githubassets.com": {
+   "decisions": 1320,
+   "hit_vars": 884,
+   "name_vars": 472,
+   "const": 29485.0,
+   "n_vars": 8133,
+   "n_rows": 13778,
+   "n_binary": 4032,
+   "status": 1,
+   "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is",
+   "objective": null,
+   "dual_bound": null,
+   "gap": null,
+   "seconds": 180.2,
+   "achieved": null,
+   "floor": null,
+   "fields": 1380,
+   "blocks": 60,
+   "second_sight": 10110,
+   "always": 11817,
+   "best_known": 10110,
+   "certified": false
+  },
+  "www.cloudflare.com": {
+   "decisions": 1100,
+   "hit_vars": 880,
+   "name_vars": 674,
+   "const": 105059.0,
+   "n_vars": 8035,
+   "n_rows": 15214,
+   "n_binary": 4208,
+   "status": 1,
+   "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is",
+   "objective": null,
+   "dual_bound": null,
+   "gap": null,
+   "seconds": 180.2,
+   "achieved": null,
+   "floor": null,
+   "fields": 1144,
+   "blocks": 44,
+   "second_sight": 25371,
+   "always": 63302,
+   "best_known": 25371,
+   "certified": false
+  },
+  "developer.mozilla.org": {
+   "decisions": 840,
+   "hit_vars": 454,
+   "name_vars": 425,
+   "const": 25131.0,
+   "n_vars": 5226,
+   "n_rows": 8926,
+   "n_binary": 2598,
+   "status": 1,
+   "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+   "objective": 12662.420645962673,
+   "dual_bound": 12340.843538635478,
+   "gap": 0.025790998171982493,
+   "admitted": 84,
+   "seconds": 180.1,
+   "achieved": 12767,
+   "floor": 12340.843538635478,
+   "fields": 869,
+   "blocks": 29,
+   "second_sight": 13574,
+   "always": 14999,
+   "best_known": 12767,
+   "certified": false
+  },
+  "pypi.org": {
+   "decisions": 249,
+   "hit_vars": 156,
+   "name_vars": 99,
+   "const": 11678.0,
+   "n_vars": 1543,
+   "n_rows": 2606,
+   "n_binary": 759,
+   "status": 1,
+   "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+   "objective": 3524.6051327685855,
+   "dual_bound": 3524.341481384032,
+   "gap": 3.2336393471299444e-05,
+   "admitted": 67,
+   "seconds": 180.1,
+   "achieved": 3542,
+   "floor": 3524.341481384032,
+   "fields": 261,
+   "blocks": 12,
+   "second_sight": 3743,
+   "always": 4228,
+   "best_known": 3542,
+   "certified": false
+  },
+  "arxiv.org": {
+   "decisions": 175,
+   "hit_vars": 73,
+   "name_vars": 40,
+   "const": 4535.0,
+   "n_vars": 887,
+   "n_rows": 1270,
+   "n_binary": 401,
+   "status": 0,
+   "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+   "objective": 2648.9801540508197,
+   "dual_bound": 2648.9801540508197,
+   "gap": 0.0,
+   "admitted": 72,
+   "seconds": 43.5,
+   "achieved": 2663,
+   "floor": 2648.9801540508197,
+   "fields": 186,
+   "blocks": 11,
+   "second_sight": 2850,
+   "always": 2757,
+   "best_known": 2663,
+   "certified": false
+  },
+  "en.wikipedia.org": {
+   "decisions": 225,
+   "hit_vars": 97,
+   "name_vars": 79,
+   "const": 18469.0,
+   "n_vars": 1233,
+   "n_rows": 1896,
+   "n_binary": 577,
+   "status": 1,
+   "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+   "objective": 12734.701216409812,
+   "dual_bound": 12462.631876578736,
+   "gap": 0.047445965077657845,
+   "admitted": 48,
+   "seconds": 180.1,
+   "achieved": 12743,
+   "floor": 12462.631876578736,
+   "fields": 235,
+   "blocks": 10,
+   "second_sight": 14578,
+   "always": 15525,
+   "best_known": 12743,
+   "certified": false
+  }
+ },
+ "exact_prefix": {
+  "github.githubassets.com": {
+   "decisions": 286,
+   "hit_vars": 178,
+   "name_vars": 96,
+   "const": 6376.0,
+   "n_vars": 1716,
+   "n_rows": 2818,
+   "n_binary": 834,
+   "status": 1,
+   "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+   "objective": 2299.1785050828057,
+   "dual_bound": 2298.9538871790755,
+   "gap": 5.509633031768037e-05,
+   "admitted": 77,
+   "seconds": 180.1,
+   "achieved": 2320,
+   "floor": 2298.9538871790755,
+   "fields": 299,
+   "blocks": 13,
+   "second_sight": 2444,
+   "always": 2569,
+   "best_known": 2320,
+   "certified": false
+  },
+  "www.cloudflare.com": {
+   "decisions": 274,
+   "hit_vars": 176,
+   "name_vars": 146,
+   "const": 24525.0,
+   "n_vars": 1818,
+   "n_rows": 3230,
+   "n_binary": 918,
+   "status": 0,
+   "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+   "objective": 8836.702916899638,
+   "dual_bound": 8836.702916899638,
+   "gap": 0.0,
+   "admitted": 30,
+   "seconds": 54.8,
+   "achieved": 8838,
+   "floor": 8836.702916899638,
+   "fields": 285,
+   "blocks": 11,
+   "second_sight": 11046,
+   "always": 17477,
+   "best_known": 8838,
+   "certified": false
+  },
+  "developer.mozilla.org": {
+   "decisions": 295,
+   "hit_vars": 142,
+   "name_vars": 137,
+   "const": 9666.0,
+   "n_vars": 1752,
+   "n_rows": 2879,
+   "n_binary": 853,
+   "status": 1,
+   "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+   "objective": 5714.635292684194,
+   "dual_bound": 5712.050675672335,
+   "gap": 0.0006541074295354244,
+   "admitted": 72,
+   "seconds": 180.1,
+   "achieved": 5730,
+   "floor": 5712.050675672335,
+   "fields": 305,
+   "blocks": 10,
+   "second_sight": 6034,
+   "always": 6341,
+   "best_known": 5730,
+   "certified": false
+  },
+  "pypi.org": {
+   "decisions": 249,
+   "hit_vars": 156,
+   "name_vars": 99,
+   "const": 11678.0,
+   "n_vars": 1543,
+   "n_rows": 2606,
+   "n_binary": 759,
+   "status": 1,
+   "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+   "objective": 3524.6051327685855,
+   "dual_bound": 3524.341481384032,
+   "gap": 3.2336393471299444e-05,
+   "admitted": 67,
+   "seconds": 180.1,
+   "achieved": 3542,
+   "floor": 3524.341481384032,
+   "fields": 261,
+   "blocks": 12,
+   "second_sight": 3743,
+   "always": 4228,
+   "best_known": 3542,
+   "certified": false
+  },
+  "arxiv.org": {
+   "decisions": 175,
+   "hit_vars": 73,
+   "name_vars": 40,
+   "const": 4535.0,
+   "n_vars": 887,
+   "n_rows": 1270,
+   "n_binary": 401,
+   "status": 0,
+   "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+   "objective": 2648.9801540508197,
+   "dual_bound": 2648.9801540508197,
+   "gap": 0.0,
+   "admitted": 72,
+   "seconds": 43.5,
+   "achieved": 2663,
+   "floor": 2648.9801540508197,
+   "fields": 186,
+   "blocks": 11,
+   "second_sight": 2850,
+   "always": 2757,
+   "best_known": 2663,
+   "certified": false
+  },
+  "en.wikipedia.org": {
+   "decisions": 225,
+   "hit_vars": 97,
+   "name_vars": 79,
+   "const": 18469.0,
+   "n_vars": 1233,
+   "n_rows": 1896,
+   "n_binary": 577,
+   "status": 1,
+   "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+   "objective": 12734.701216409812,
+   "dual_bound": 12462.631876578736,
+   "gap": 0.047445965077657845,
+   "admitted": 48,
+   "seconds": 180.1,
+   "achieved": 12743,
+   "floor": 12462.631876578736,
+   "fields": 235,
+   "blocks": 10,
+   "second_sight": 14578,
+   "always": 15525,
+   "best_known": 12743,
+   "certified": false
+  }
+ },
+ "sweep": {
+  "512": {
+   "never": 194375,
+   "always": 191861,
+   "size_guard": 192283,
+   "nghttp2": 192247,
+   "oracle_recurrence": 190265,
+   "second_sight": 191111
+  },
+  "1024": {
+   "never": 194375,
+   "always": 190756,
+   "size_guard": 190353,
+   "nghttp2": 190514,
+   "oracle_recurrence": 169745,
+   "second_sight": 168620
+  },
+  "2048": {
+   "never": 194375,
+   "always": 163608,
+   "size_guard": 152016,
+   "nghttp2": 148443,
+   "oracle_recurrence": 151708,
+   "second_sight": 126597
+  },
+  "4096": {
+   "never": 194357,
+   "always": 112628,
+   "size_guard": 135308,
+   "nghttp2": 112054,
+   "oracle_recurrence": 71331,
+   "second_sight": 70226
+  },
+  "8192": {
+   "never": 194375,
+   "always": 75203,
+   "size_guard": 123920,
+   "nghttp2": 73081,
+   "oracle_recurrence": 65525,
+   "second_sight": 63296
+  },
+  "16384": {
+   "never": 194375,
+   "always": 61948,
+   "size_guard": 67393,
+   "nghttp2": 61875,
+   "oracle_recurrence": 62092,
+   "second_sight": 59860
+  }
+ },
+ "thresholds": {
+  "0.00/0.25": 121815,
+  "0.00/0.50": 70860,
+  "0.00/1.00": 71516,
+  "0.25/0.25": 121288,
+  "0.25/0.50": 70517,
+  "0.25/1.00": 71244,
+  "0.50/0.25": 120953,
+  "0.50/0.50": 70226,
+  "0.50/1.00": 70988,
+  "0.75/0.25": 121371,
+  "0.75/0.50": 70093,
+  "0.75/1.00": 70820,
+  "1.00/0.25": 122428,
+  "1.00/0.50": 72474,
+  "1.00/1.00": 72551
+ },
+ "totals": {
+  "never": 194357,
+  "always": 112628,
+  "size_guard": 135308,
+  "nghttp2": 112054,
+  "oracle_recurrence": 71331,
+  "second_sight": 70226,
+  "exact_best": 67196,
+  "exact_prefix_floor": 35483.660991764635,
+  "exact_prefix_best": 35836
+ }
+}

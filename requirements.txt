@@ -1,0 +1,6 @@
+hpack>=4.0,<5
+httpx[http2]>=0.27
+scipy>=1.11
+numpy>=1.24
+matplotlib>=3.7
+pytest>=7.4
